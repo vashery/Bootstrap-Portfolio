@@ -3,11 +3,12 @@ html {
     min-height: 100vh;
   }
 body {
-    background-image: url("background.png");
+    background-image: url("../images/background.png");
 }
 .container {
     width: 960px;
     padding: 0;
+    overflow:auto;
 }
 .navbar {
     border-bottom: solid #cccccc;
@@ -19,6 +20,7 @@ body {
 
 #contentcenter {
     padding: 20px;
+    height: 100%;
 }
 
 #logostyle {
@@ -33,7 +35,6 @@ body {
     padding-right: 20px;
 
 }
-
 .contentheader {
     border-bottom: solid 2px;
     border-color: #cccccc;
