@@ -97,3 +97,6 @@ body {
     margin-bottom: 15px;
     align-items:center;
 }
+#addbluebackground {
+    display: block;
+}
